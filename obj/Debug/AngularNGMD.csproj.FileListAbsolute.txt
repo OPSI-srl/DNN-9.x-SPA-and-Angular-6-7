@@ -1,0 +1,10 @@
+D:\inetpub\www\dnn92ng\Website\DesktopModules\AngularNGMD\obj\Debug\AngularNGMD.App_LocalResources.index.html.resources
+D:\inetpub\www\dnn92ng\Website\DesktopModules\AngularNGMD\obj\Debug\AngularNGMD.App_LocalResources.index.html.de-DE.resources
+D:\inetpub\www\dnn92ng\Website\DesktopModules\AngularNGMD\obj\Debug\AngularNGMD.csproj.GenerateResource.cache
+D:\inetpub\www\dnn92ng\Website\bin\AngularNGMD.dll
+D:\inetpub\www\dnn92ng\Website\bin\AngularNGMD.pdb
+D:\inetpub\www\dnn92ng\Website\bin\de-DE\AngularNGMD.resources.dll
+D:\inetpub\www\dnn92ng\Website\DesktopModules\AngularNGMD\obj\Debug\de-DE\AngularNGMD.resources.dll
+D:\inetpub\www\dnn92ng\Website\DesktopModules\AngularNGMD\obj\Debug\AngularNGMD.dll
+D:\inetpub\www\dnn92ng\Website\DesktopModules\AngularNGMD\obj\Debug\AngularNGMD.pdb
+D:\inetpub\www\dnn92ng\Website\DesktopModules\AngularNGMD\obj\Debug\AngularNGMD.csprojResolveAssemblyReference.cache

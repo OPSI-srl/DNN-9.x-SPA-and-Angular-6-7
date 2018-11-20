@@ -1,0 +1,30 @@
+[Css:{ path: "https://fonts.googleapis.com/icon?family=Material+Icons"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/main.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/polyfills.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/runtime.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/styles.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/vendor.js", priority:100, provider: "DnnFormBottomProvider"}]
+[AntiForgeryToken:true]
+<!--
+[DNNtc.ModuleDependencies(DNNtc.ModuleDependency.CoreVersion, "07.00.00")]
+[DNNtc.PackageProperties("AngularNG", 1, "Angular5 module", "An Angular sample module", "BBAngular.png", "Torsten Weggen", "bitboxx solutions", "http://www.bitboxx.net", "info@bitboxx.net", false)]
+[DNNtc.ModuleProperties("AngularNG", "Angular5 module", 0)]
+[DNNtc.ModuleControlProperties("", "AngularNG", DNNtc.ControlType.View, "", false, false)]
+[ModuleContext:ModuleId]
+
+<base href="/tm-demo">
+[ModuleContext:ModuleId]
+[Portal:Currency][Tab:TabName]
+-->
+
+<!--[ModuleProperties:approotangularbegin]
+<p>Loading...</p>
+[ModuleProperties:approotangularend]-->
+
+<base href="[ModuleProperties:rawurl]">
+<app-root-md>
+    <p>Loading....</p>
+</app-root-md>
+<script>
+    window["AngularNGMD"] = [ModuleProperties:All]
+</script>
