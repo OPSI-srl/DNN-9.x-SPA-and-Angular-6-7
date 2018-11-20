@@ -1,25 +1,37 @@
+<!-- [ModuleAction:{controlKey: "AboutMe", securityAccessLevel : "Edit",  titleKey: "AboutMe", localResourceFile: "~/DesktopModules/AngularNGMD/App_LocalResources/index.hmtl.resx" }] -->
+[AntiForgeryToken:true]
+
+<!-- Production -->
+<!-- 
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/main.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/polyfills.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/runtime.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/styles.js", priority:100, provider: "DnnFormBottomProvider"}]
 [Css:{ path: "https://fonts.googleapis.com/icon?family=Material+Icons"}]
+-->
+<!-- End: Production -->
+
+<!-- Development -->
 [JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/main.js", priority:100, provider: "DnnFormBottomProvider"}]
 [JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/polyfills.js", priority:100, provider: "DnnFormBottomProvider"}]
 [JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/runtime.js", priority:100, provider: "DnnFormBottomProvider"}]
 [JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/styles.js", priority:100, provider: "DnnFormBottomProvider"}]
 [JavaScript:{ path: "~/DesktopModules/AngularNGMD/dist/vendor.js", priority:100, provider: "DnnFormBottomProvider"}]
-[AntiForgeryToken:true]
+<!-- End: Development -->
+
+[Css:{ path: "https://fonts.googleapis.com/icon?family=Material+Icons"}]
+
 <!--
+Other information
 [DNNtc.ModuleDependencies(DNNtc.ModuleDependency.CoreVersion, "07.00.00")]
 [DNNtc.PackageProperties("AngularNG", 1, "Angular5 module", "An Angular sample module", "BBAngular.png", "Torsten Weggen", "bitboxx solutions", "http://www.bitboxx.net", "info@bitboxx.net", false)]
 [DNNtc.ModuleProperties("AngularNG", "Angular5 module", 0)]
 [DNNtc.ModuleControlProperties("", "AngularNG", DNNtc.ControlType.View, "", false, false)]
 [ModuleContext:ModuleId]
-
-<base href="/tm-demo">
+Token Example:
 [ModuleContext:ModuleId]
 [Portal:Currency][Tab:TabName]
 -->
-
-<!--[ModuleProperties:approotangularbegin]
-<p>Loading...</p>
-[ModuleProperties:approotangularend]-->
 
 <base href="[ModuleProperties:rawurl]">
 <app-root-md>
