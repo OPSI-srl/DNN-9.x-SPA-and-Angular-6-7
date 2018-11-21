@@ -54,7 +54,7 @@ namespace AngularNGMD.Controller
                     properties.RawUrl = HttpContext.Current.Request.RawUrl;
                     properties.PortalLanguages = GetPortalLanguages();
                     properties.CurrentLanguage = System.Threading.Thread.CurrentThread.CurrentCulture.Name;
-                    properties.Users = UserController.GetUsers(_moduleContext.PortalId).Cast<UserInfo>().Select(u => new { text = u.Username, id = u.UserID }).ToList();
+                    //properties.Users = UserController.GetUsers(_moduleContext.PortalId).Cast<UserInfo>().Select(u => new { text = u.Username, id = u.UserID }).ToList();
                     return JsonConvert.SerializeObject(properties);
 
                 case "modulepath":
