@@ -1,5 +1,5 @@
-# Angular 6 - Visual studio Template for DNN 9.x.
-This is a scaffold DNN 9.x module template for and Angular 6.
+# SPA HTML Module - Visual studio Template for DNN 9.x for Angular 6.x and 7.x
+This is a scaffold DNN 9.x module template for and Angular 6/7.
 
 # Description
 To Develop Angular 6 project with DNN you need 2 different project:
@@ -116,3 +116,19 @@ window[
 ###tokens to support building pure SPA modules
 `<link>` : https://www.dnnsoftware.com/community-blog/cid/155247/module-development-in-dnn-8-5--new-tokens-to-support-building-pure-spa-modules
 
+# What you need to do step by step:
+1. Create a Folder (example: "Demo-Angular6") inside your DNN /desktopmodule/Demo-Angular6/
+2. Clone this project from git inside /desktopmodule/Demo-Angular6/ (all files should be in root folder)
+3. Open solution (filename.sln) with visual studio 2015
+4. Re-naming the project/solution
+5. Change Assembly name and Namespace
+6. Build your solution and check any error.
+7. It's time to register Module inside your DNN
+- Login as host.
+- Go to host->Estension->Create new module
+- select control module 
+- "folder name"
+- "Business Controller": [namespace].Controller.BusinessController,[namespace] (ex. AngularNGMD.Controller.BusinessController,AngularNGMD) 
+- insert module name: Demo Angular 6
+- Add "Module definition"
+- Add "Module control (folder, source file: index.html, Type: view)"
