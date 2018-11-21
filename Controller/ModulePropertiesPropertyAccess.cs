@@ -81,7 +81,9 @@ namespace AngularNGMD.Controller
 
         private Dictionary<string, string> GetResources(ModuleInfo module)
         {
-            System.IO.FileInfo fi = new System.IO.FileInfo(HttpContext.Current.Server.MapPath("~/" + _moduleContext.Configuration.ModuleControl.ControlSrc + ".resx"));
+            var currentLanguage = System.Threading.Thread.CurrentThread.CurrentCulture.Name;
+            System.IO.FileInfo fi = new System.IO.FileInfo(HttpContext.Current.Server.MapPath("~/" + _moduleContext.Configuration.ModuleControl.ControlSrc + "." + currentLanguage + ".resx"));
+            //System.IO.FileInfo fi = new System.IO.FileInfo(HttpContext.Current.Server.MapPath("~/" + _moduleContext.Configuration.ModuleControl.ControlSrc + ".resx"));
             string physResourceFile = fi.DirectoryName + "/App_LocalResources/" + fi.Name;
             string relResourceFile = "/DesktopModules/" + module.DesktopModule.FolderName + "/App_LocalResources/" + fi.Name;
             if (File.Exists(physResourceFile))
