@@ -3,7 +3,10 @@ This is a scaffold DNN 9.x module template for Angular 6/7.
 
 # Description
 To Develop Angular 6 project with DNN you need 2 different project:
+
 1. Angular 6/7 - CLI Template for DNN 7.x, 8.x, 9.x.
+`<link>` : https://github.com/OPSI-srl/Angular-6---CLI-Template-for-DNN-7.x-8.x-9.x.
+
 2. DNN 9.x module that host your angular **(this project)**
 
 This is a best practice for your developer frontend, because it is independent from DNN.
