@@ -3,7 +3,7 @@ This is a scaffold DNN 9.x module template for and Angular 6/7.
 
 # Description
 To Develop Angular 6 project with DNN you need 2 different project:
-1. Angular CLI project (template-dnn-7.x-for-angular-6-CLI)
+1. Angular 6/7 - CLI Template for DNN 7.x, 8.x, 9.x.
 2. DNN 9.x module that host your angular **(this project)**
 
 This is a best practice for your developer frontend, because it is independent from DNN.
@@ -132,3 +132,12 @@ window[
 - insert module name: Demo Angular 6
 - Add "Module definition"
 - Add "Module control (folder, source file: index.html, Type: view)"
+
+# Reference
+This project is just an avolution or code encapsulation made from these important resources by Torsten Weggen and Danile Mettler:
+
+`<link>` : http://www.bitboxx.net/Blog/Post/525/DNN-module-development-with-Angular-2-Part-7#/
+
+`<link>` : https://2sxc.org/en/blog/post/how-to-correctly-connect-dnn-to-angular-4-5-using-reactive-javascript
+
+`<link>` : https://github.com/2sic/dnn-sxc-angular
