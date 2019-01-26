@@ -1,6 +1,8 @@
 # SPA HTML Module - Visual studio Template for DNN 9.x for Angular 6.x and 7.x
 This is a scaffold DNN 9.x module template for Angular 6/7.
 
+# Video on youtube: https://www.youtube.com/watch?v=G1E3HblfN_8
+
 # Description
 To Develop Angular 6 project with DNN you need 2 different project:
 
