@@ -2,7 +2,7 @@
 using System.Web.Caching;
 using DotNetNuke.ComponentModel.DataAnnotations;
 
-namespace AngularNGMD.Model
+namespace Angular6Demo.Model
 {
     // Name of the corresponding database table
     [TableName("Angularmodule_Items")]

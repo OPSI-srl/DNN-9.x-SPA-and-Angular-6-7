@@ -9,12 +9,12 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Collections.Generic;
 using DotNetNuke.Security;
-using AngularNGMD.Model;
-using AngularNGMD.Controller;
+using Angular6Demo.Model;
+using Angular6Demo.Controller;
 using DotNetNuke.Entities.Users;
 using Newtonsoft.Json;
 
-namespace AngularNGMD.WebApi
+namespace Angular6Demo.WebApi.controller
 {
     //[SupportedModules("Angularmodule")]
     public class ItemController : DnnApiController
@@ -24,9 +24,11 @@ namespace AngularNGMD.WebApi
         /// API that returns Hello world
         /// </summary>
         /// <returns></returns>
+
+        //[ActionName("test")]
         [HttpGet]  //[baseURL]/item/test
-        [ActionName("test")]
         [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public HttpResponseMessage HelloWorld()
         {
             return Request.CreateResponse(HttpStatusCode.OK, "Hello World!");

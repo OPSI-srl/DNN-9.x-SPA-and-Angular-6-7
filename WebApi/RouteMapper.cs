@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DotNetNuke.Web.Api;
 
-namespace AngularNGMD.WebApi
+namespace Angular6Demo.WebApi
 {
     public class RouteMapper : IServiceRouteMapper
     {
@@ -15,14 +15,14 @@ namespace AngularNGMD.WebApi
         /// <param name="routeManager">The route manager.</param>
         public void RegisterRoutes(IMapRoute routeManager)
         {
-            routeManager.MapHttpRoute("AngularNGMD", "default", "{controller}/{action}",
-                    new[] { "AngularNGMD.WebApi" });
+            routeManager.MapHttpRoute("Angular6Demo", "default", "{controller}/{action}",
+                    new[] { "Angular6Demo.WebApi.controller" });
 
         }
     }
 
     //In short that means that you can address this webservice under the url
-    //~/desktopmodules/AngularNGMD/api/{controller}/{action}
+    //~/desktopmodules/Angular6Demo/api/{controller}/{action}
     //http://www.dnnsoftware.com/community-blog/cid/142400/getting-started-with-services-framework-webapi-edition 
 
 }

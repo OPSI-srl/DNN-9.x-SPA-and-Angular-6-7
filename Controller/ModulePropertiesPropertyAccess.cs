@@ -14,7 +14,7 @@ using DotNetNuke.Services.Tokens;
 using DotNetNuke.UI.Modules;
 using Newtonsoft.Json;
 
-namespace AngularNGMD.Controller
+namespace Angular6Demo.Controller
 {
     public class ModulePropertiesPropertyAccess : IPropertyAccess
     {

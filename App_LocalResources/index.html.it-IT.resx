@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BasicSettings.Text" xml:space="preserve">
-    <value>Einstellungen</value>
+    <value>ITA</value>
   </data>
   <data name="CollapseAll.Text" xml:space="preserve">
     <value>Alle minimieren</value>
@@ -133,7 +133,7 @@
     <value>Bearbeiten</value>
   </data>
   <data name="AddItem.Text" xml:space="preserve">
-    <value>Item hinzufügen</value>
+    <value>Aggiungi elemento</value>
   </data>
   <data name="lblAssignedUser.Text" xml:space="preserve">
     <value>Zugeordneter Benutzer</value>
