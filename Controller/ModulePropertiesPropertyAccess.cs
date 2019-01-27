@@ -54,7 +54,7 @@ namespace Angular6Demo.Controller
                     properties.RawUrl = HttpContext.Current.Request.RawUrl;
                     properties.PortalLanguages = GetPortalLanguages();
                     properties.CurrentLanguage = System.Threading.Thread.CurrentThread.CurrentCulture.Name;
-                    properties.routingWebAPI = "/desktopModules/loremipsum/API/";
+                    properties.routingWebAPI = "/desktopModules/Angular6Demo/API/";
                     properties.TabId = _moduleContext.TabId;
                     //properties.Users = UserController.GetUsers(_moduleContext.PortalId).Cast<UserInfo>().Select(u => new { text = u.Username, id = u.UserID }).ToList();
                     return JsonConvert.SerializeObject(properties);
