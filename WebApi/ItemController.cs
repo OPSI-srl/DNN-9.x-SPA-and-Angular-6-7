@@ -26,7 +26,9 @@ namespace Angular6Demo.WebApi.controller
         /// <returns></returns>
 
         //[ActionName("test")]
-        [HttpGet]  //[baseURL]/item/test
+        [HttpGet]
+        //[DesktopModules]/[routing]/item/test
+        // URL http://localhost/DesktopModules/Angular6Demo/API/item/HelloWorld
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public HttpResponseMessage HelloWorld()
